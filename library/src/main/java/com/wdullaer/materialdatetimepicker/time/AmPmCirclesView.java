@@ -77,7 +77,7 @@ public class AmPmCirclesView extends View {
 
         Resources res = context.getResources();
         mUnselectedColor = res.getColor(R.color.mdtp_white);
-        mSelectedColor = res.getColor(R.color.mdtp_accent_color);
+        mSelectedColor = res.getColor(R.color.mdtp_ampm_circle_color);
         mTouchedColor = res.getColor(R.color.mdtp_accent_color_dark);
         mAmPmTextColor = res.getColor(R.color.mdtp_ampm_text_color);
         mAmPmSelectedTextColor = res.getColor(R.color.mdtp_ampm_text_selected_color);
@@ -111,7 +111,7 @@ public class AmPmCirclesView extends View {
             mSelectedAlpha = SELECTED_ALPHA_THEME_DARK;
         } else {
             mUnselectedColor = res.getColor(R.color.mdtp_white);
-            mSelectedColor = res.getColor(R.color.mdtp_accent_color);
+            mSelectedColor = res.getColor(R.color.mdtp_ampm_circle_color);
             mAmPmTextColor = res.getColor(R.color.mdtp_ampm_text_color);
             mSelectedAlpha = SELECTED_ALPHA;
         }
