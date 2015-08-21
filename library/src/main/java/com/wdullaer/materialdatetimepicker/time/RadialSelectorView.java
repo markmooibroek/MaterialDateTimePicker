@@ -100,7 +100,7 @@ public class RadialSelectorView extends View {
 
         Resources res = context.getResources();
 
-        int accentColor = res.getColor(R.color.mdtp_accent_color);
+        int accentColor = res.getColor(R.color.mdtp_time_circleline_color);
         mPaint.setColor(accentColor);
         mPaint.setAntiAlias(true);
         mSelectionAlpha = SELECTED_ALPHA;
@@ -148,7 +148,7 @@ public class RadialSelectorView extends View {
             color = res.getColor(R.color.mdtp_red);
             mSelectionAlpha = SELECTED_ALPHA_THEME_DARK;
         } else {
-            color = res.getColor(R.color.mdtp_accent_color);
+            color = res.getColor(R.color.mdtp_time_circleline_color);
             mSelectionAlpha = SELECTED_ALPHA;
         }
         mPaint.setColor(color);
