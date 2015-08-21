@@ -100,7 +100,7 @@ public class RadialTextsView extends View {
         mPaint.setTextAlign(Align.CENTER);
 
         // Set up the selected paint
-        int selectedTextColor = res.getColor(R.color.mdtp_white);
+        int selectedTextColor = res.getColor(R.color.mdtp_numbers_text_selected_color);
         mSelectedPaint.setColor(selectedTextColor);
         mSelectedPaint.setAntiAlias(true);
         mSelectedPaint.setTextAlign(Align.CENTER);
