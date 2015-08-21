@@ -35,9 +35,9 @@
 
     <color name="mdtp_ampm_text_color">@color/mdtp_numbers_text_color</color>
     <color name="mdtp_ampm_text_selected_color">@color/mdtp_white</color>
-    <color name="mdtp_ampm_circle_color">@color/mdtp_accent</color>
+    <color name="mdtp_ampm_circle_color">@color/mdtp_accent_color</color>
 
-    <color name="mdtp_time_circleline_color">@color/mdtp_accent</color>
+    <color name="mdtp_time_circleline_color">@color/mdtp_accent_color</color>
 
     <color name="mdtp_date_picker_text_normal">#ff212121</color>
     <color name="mdtp_date_picker_text_highlighted">@color/mdtp_date_picker_text_normal</color>
