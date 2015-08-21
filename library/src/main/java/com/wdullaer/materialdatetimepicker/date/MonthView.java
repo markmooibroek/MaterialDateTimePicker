@@ -183,6 +183,7 @@ public abstract class MonthView extends View {
     protected int mSelectedDayTextColor;
     protected int mMonthDayTextColor;
     protected int mTodayNumberColor;
+    protected int mCircleBackgroundColor;
     protected int mHighlightedDayTextColor;
     protected int mDisabledDayTextColor;
     protected int mMonthTitleColor;
@@ -215,9 +216,11 @@ public abstract class MonthView extends View {
             mDisabledDayTextColor = res.getColor(R.color.mdtp_date_picker_text_disabled);
             mHighlightedDayTextColor = res.getColor(R.color.mdtp_date_picker_text_highlighted);
         }
-        mSelectedDayTextColor = res.getColor(R.color.mdtp_white);
+        
+        mSelectedDayTextColor = res.getColor(R.color.mdtp_selected_day_text_color);
         mTodayNumberColor = res.getColor(R.color.mdtp_accent_color);
         mMonthTitleColor = res.getColor(R.color.mdtp_white);
+        mCircleBackgroundColor = res.getColor(R.color.mdtp_circle_background_color);
 
         mStringBuilder = new StringBuilder(50);
         mFormatter = new Formatter(mStringBuilder, Locale.getDefault());
@@ -302,7 +305,7 @@ public abstract class MonthView extends View {
         mSelectedCirclePaint = new Paint();
         mSelectedCirclePaint.setFakeBoldText(true);
         mSelectedCirclePaint.setAntiAlias(true);
-        mSelectedCirclePaint.setColor(mTodayNumberColor);
+        mSelectedCirclePaint.setColor(mCircleBackgroundColor);
         mSelectedCirclePaint.setTextAlign(Align.CENTER);
         mSelectedCirclePaint.setStyle(Style.FILL);
         mSelectedCirclePaint.setAlpha(SELECTED_CIRCLE_ALPHA);

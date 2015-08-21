@@ -36,6 +36,12 @@
     <color name="mdtp_date_picker_text_disabled">#ccc</color>
     <color name="mdtp_date_picker_month_day">#767676</color>
 
+    <color name="mdtp_selected_day_text_color">@color/mdtp_white</color>
+    <color name="mdtp_circle_background_color">@color/mdtp_accent_color</color>
+
+    <color name="mdtp_date_picker_selector_normal">@color/mdtp_white</color>
+    <color name="mdtp_date_picker_selector_focussed">@color/mdtp_accent_color_focused</color>
+
     <!-- DatePicker Dark Theme -->
     <color name="mdtp_date_picker_view_animator_dark_theme">@color/mdtp_light_gray</color>
     <color name="mdtp_date_picker_text_normal_dark_theme">@color/mdtp_white</color>
